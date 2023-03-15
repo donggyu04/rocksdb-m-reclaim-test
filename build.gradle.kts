@@ -27,4 +27,6 @@ tasks.jar {
 dependencies {
     implementation("com.github.oshi:oshi-core:6.4.0")
     implementation("org.rocksdb:rocksdbjni:7.10.2")
+
+    implementation("org.slf4j:slf4j-nop:2.0.5")
 }
